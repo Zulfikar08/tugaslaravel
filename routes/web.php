@@ -16,9 +16,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/profile', function () {
-    return view('profile');
+// Route::get('/profile', function () {
+//     return view('profile');
+// });
+// Route::get('/media', function () {
+//     return view('media');
+// });
+Route::get('/view1', function () {
+    return view('card');
 });
-Route::get('/media', function () {
-    return view('media');
+Route::get('/view2', function () {
+    return view('list');
+});
+Route::get('/view3', function () {
+    return view('table');
 });

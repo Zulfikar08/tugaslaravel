@@ -85,13 +85,16 @@
                 </div>
 
                 <div class="links">
-                    <a href="/profile">Profile</a>
+                    <a href="/view1">Card ID</a>
+                    <a href="/view2">list</a>
+                    <a href="/view3">Table</a>
+                    {{-- <a href="/profile">Profile</a>
                     <a href="https://laravel.com/docs">Stay</a>
                     <a href="https://laracasts.com">In</a>
                     <a href="https://laravel-news.com">Home</a>
                     <a href="https://blog.laravel.com">For</a>
                     <a href="https://nova.laravel.com">Us</a>
-                    <a href="/media">Media</a>
+                    <a href="/media">Media</a> --}}
                 </div>
             </div>
         </div>
